@@ -1,6 +1,7 @@
 # pascal-triangle
 ## About
 In this program, firstly, the user enters a number in the input section as the row numbers of Pascal's triangle. Then, by pressing the Draw button, Pascal's triangle is drawn with the number of rows entered in the input section.
+
 The entered row numbers should be an integer between 1 and 16 otherwise an error will be given to the user.
 ***
 ## Pictures
