@@ -14,7 +14,7 @@ btnEl.addEventListener("click", () => {
   }
   if (inputEl.value > 16) {
     inputEl.value = "";
-    return alert("The entered number should be an lower than 17");
+    return alert("The entered number should be lower than 17");
   }
   numRows = inputEl.value;
   let arr = [];
