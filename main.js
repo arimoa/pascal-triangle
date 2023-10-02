@@ -4,6 +4,18 @@ const btnEl = document.getElementById("btn");
 let numRows;
 btnEl.addEventListener("click", () => {
   containerEl.innerHTML = "";
+  if (inputEl.value < 1) {
+    inputEl.value = "";
+    return alert("The entered number should be greater than 0");
+  }
+  if (!Number.isInteger(+inputEl.value)) {
+    inputEl.value = "";
+    return alert("The entered number should be an integer");
+  }
+  if (inputEl.value > 16) {
+    inputEl.value = "";
+    return alert("The entered number should be an lower than 17");
+  }
   numRows = inputEl.value;
   let arr = [];
   let rowArr = [];
